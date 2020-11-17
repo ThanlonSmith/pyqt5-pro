@@ -3,12 +3,13 @@
 @author: qq3330447288
 @contact: erics1996@yeah.net
 @software: PyCharm
-@file: RunMainWinVHLayout.py.py
-@time: 2020/11/16 下午10:30
+@file: MainWinMenuToolbar.py
+@time: 2020/11/17 上午8:51
 """
 import sys
-import MainWinVHLayout
+
 from PyQt5.QtWidgets import QApplication, QMainWindow
+import MainWinMenuToolbar
 
 if __name__ == '__main__':
     # 创建QApplication类的实例
@@ -16,7 +17,7 @@ if __name__ == '__main__':
     # 创建一个主窗口
     mainWindow = QMainWindow()
     # 创建Ui_MainWindow的实例
-    ui = MainWinVHLayout.Ui_MainWindow()
+    ui = MainWinMenuToolbar.Ui_MainWindow()
     # 调用setupUi在指定窗口(主窗口)中添加控件
     ui.setupUi(mainWindow)
     # 显示窗口
